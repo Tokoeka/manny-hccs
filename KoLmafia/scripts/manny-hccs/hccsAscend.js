@@ -313,14 +313,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var kolmafia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! kolmafia */ "kolmafia");
 /* harmony import */ var kolmafia__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(kolmafia__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var libram__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! libram */ "./node_modules/libram/dist/template-string.js");
-var _templateObject;
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["little geneticist DNA-splicing lab"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
 
 
-if ((0,kolmafia__WEBPACK_IMPORTED_MODULE_0__.getWorkshed)() !== (0,libram__WEBPACK_IMPORTED_MODULE_1__.$item)(_templateObject || (_templateObject = _taggedTemplateLiteral(["little geneticist DNA-splicing lab"])))) {
+if ((0,kolmafia__WEBPACK_IMPORTED_MODULE_0__.getWorkshed)() !== (0,libram__WEBPACK_IMPORTED_MODULE_1__.$item)(_templateObject())) {
   throw "You have the wrong workshed item";
 }
 
