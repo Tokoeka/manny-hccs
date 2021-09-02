@@ -579,7 +579,7 @@ if (!testDone(TEST_HP)) {
       numericModifier(loveEffect, "muscle") > -30 &&
       numericModifier(loveEffect, "moxie") > -30 &&
       numericModifier(loveEffect, "maximum hp percent") > -0.001
-    ) {
+    ) {+  
       use(1, lovePotion);
     }
   }
